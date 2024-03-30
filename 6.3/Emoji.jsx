@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Emoji = () => {
+function Emoji () = () => {
   const [mood, setMood] = useState('😊');
 
   const handleChangeMood = () => {
